@@ -1,0 +1,60 @@
+<div id="header" class="bar bar-header">
+	<a href="https://meh.com/"><div class="mehLogo"></div></a>
+	<ul>
+		<li>
+			<a href="https://meh.com/forum" id="search"></a>
+		</li>
+		<li>
+			<a href="https://mediocre.com/account/" id="account"></a>
+		</li>
+		<li>
+			<a href="https://meh.com/forum" id="forum"></a>
+		</li>
+	</ul>
+</div>
+
+<div id="hero-center">
+	<div id="hero-bg"></div>
+</div>
+
+<div id="sbLoadContainer">
+	<div id="sbLoad" class="icon ion-load-d"></div>
+</div>
+
+<ion-slide-box on-slide-changed="slideHasChanged($index)">
+	<ion-slide ng-repeat="pic in pics">
+		<div><img ng-src="{{pic}}"></div>
+	</ion-slide>	
+</ion-slide-box>
+<!-- <ion-slide-pager></ion-slide-pager> -->
+
+
+<div id="bottom-wrap">
+
+	<div id="price-check">{{priceCheck}}</div>
+
+	
+	<div id="buttons">
+		<a href="#"><div class="meh-button buy">${{price}}
+			<span>Buy it.</span></div></a>
+		<a href="#"><div class="meh-button sold-out">Sold out.
+			<span>There are no more.</span></div></a>
+		<a href="#"><div class="meh-button meh">meh.</div></a>
+	</div>
+	
+	<div id="product-specs">
+		<!-- product specs list -->
+	</div>
+	
+	<div id="full-specs" ng-click="openModal()">
+		Full product specs
+	</div>
+	
+	<div id="writeUp">
+		<!-- dump meh writeup here -->
+	</div>
+</div>
+
+<!-- {{test}} -->
+
+<!-- video, community list and footer may or may not be implemented -->

@@ -1,0 +1,277 @@
+meh {
+	box-sizing: border-box;
+}
+
+p,li,div{
+	font-family:'Proxima Nova Regular','Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#header {
+	height: 35px;
+	border: none;
+}
+
+#header.light {
+	border-color: #FFF;
+}
+
+#header ul {
+	display: inline-block;
+	float: right;
+	width: 121px;
+	height: 38px;
+	margin-left: auto;
+}
+
+#header ul>li {
+	display: inline-block;
+	margin-left: 12px;
+	width: 24px;
+}
+
+#header ul>li>a {
+	height: 24px;
+	width: 24px;
+	background-image: url(../img/navSprites.png);
+	background-size: 204px 48px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.mehLogo {
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url(../img/navSprites.png);
+	background-size: 204px 48px;
+	background-position: -144px -28px;
+	height: 20px;
+	width: 50px;
+	float: left;
+	margin-left: 5px;
+}
+
+a#search {
+	background-position:0 -24px;
+}
+
+a#account {
+	background-position:-24px -24px;
+}
+
+a#forum {
+	background-position: -120px -24px;
+}
+
+.light #search{
+	background-position:0 0;
+}
+
+.light #account {
+	background-position: -24px 0;
+}
+
+.light #forum {
+	background-position: -120px 0;
+}
+
+#hero-center {
+	position: relative;
+	overflow: visible;
+	width: 320px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#hero-bg{
+	position: absolute;
+	z-index: -5;
+	background-repeat: no-repeat;
+	width: 1042px;
+	height: 1042px;
+	background-size: 1042px 1042px;
+	left:-370px;
+	top:-375px;
+}
+
+ion-slide img {
+	height:300px;
+	width:300px;
+}
+
+#sbLoadContainer {
+	height: 0;
+	width: 0;
+	position: relative;
+	margin: 0 auto;
+}
+
+#sbLoad {
+	position: absolute;
+	font-size: 64px;
+	left: -32px;
+	top:110px;
+}
+
+.slider {
+	overflow: visible;
+	height:315px;
+}
+
+.slider-slide {
+	padding-top: 10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.slider-slide>div{
+	width:320px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.slider-pager {
+	position: relative;
+	top: 5px;
+}
+
+.light .mehLogo {
+	background-position: -144px -4px;
+}
+
+#bottom-wrap {
+	width: 320px;
+	margin-left:auto;
+	margin-right:auto;
+	clear: both;
+	position: relative;
+	top: 30px;
+}
+
+#bottom-wrap h2 {
+	font-size: 22px;
+}
+
+#buttons {
+	width: 300px;
+	height: 64px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	position: relative;
+	left: -5px;
+	padding: 0 10px;
+}
+
+.meh-button {
+	border-radius: 8px;
+	background-color: #000;
+	height: 64px;
+	font-size: 22px;
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	line-height: 64px;
+}
+
+.sold-out, .buy {
+	width:200px;
+	float: left;
+	line-height:28px;
+	text-decoration: none;
+	font-size: 24px;
+	padding-top: 8px;
+}
+
+.sold-out span, .buy span {
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.buy {
+	float: left;
+}
+
+.meh {
+	width: 64px;
+	float: right;
+}
+
+#price-check {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#price-check>p{
+	height: 20px;
+}
+
+#product-specs li {
+	width:282px;
+	line-height: 20px;
+}
+
+#product-specs ul {
+	list-style-type:disc;
+	padding-left: 18px;
+	word-wrap:normal;
+}
+
+#bottom-wrap a {
+	color: #000;
+}
+
+#full-specs {
+	padding: 5px 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 170px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+ion-modal-view .ng-binding {
+	white-space: pre-wrap;
+	padding: 0 20px 10px;
+}
+
+/*ion-modal-view button span{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}*/
+
+ion-modal-view .return-button {
+	width: 120px;
+	text-align: center;
+	margin-left:125px;
+	margin-right:auto;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #DDD;
+	border: 2px solid;
+	border-color: #999;
+	position: absolute;
+	bottom:0;
+	text-align: center;
+}
+
+.bar-header {
+	position: relative;
+	margin-bottom: 5px;
+}
+
+#writeUp {
+	margin-bottom: 30px;
+}
+
+#writeUp em {
+	font-style: italic;
+}
